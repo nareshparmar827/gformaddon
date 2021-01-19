@@ -1,0 +1,783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Authorize.Net Add-On\n"
+"POT-Creation-Date: 2013-08-19 14:23-0500\n"
+"PO-Revision-Date: 2013-08-19 14:23-0500\n"
+"Last-Translator: Dana Cobb <dana@rocketgenius.com>\n"
+"Language-Team: Rocketgenius <customerservice@rocketgenius.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../authorizenet.php:280
+msgid ""
+"This credit card has been declined by your bank. Please use another form of "
+"payment."
+msgstr ""
+
+#: ../authorizenet.php:284
+msgid "The credit card has expired."
+msgstr ""
+
+#: ../authorizenet.php:289
+msgid "The merchant does not accept this type of credit card."
+msgstr ""
+
+#: ../authorizenet.php:305 ../authorizenet.php:309 ../authorizenet.php:325
+msgid ""
+"There was an error processing your credit card. Please verify the "
+"information and try again."
+msgstr ""
+
+#: ../authorizenet.php:319
+msgid "A duplicate subscription already exists."
+msgstr ""
+
+#: ../authorizenet.php:322
+msgid ""
+"The credit card expires before the subscription start date. Please use "
+"another form of payment."
+msgstr ""
+
+#: ../authorizenet.php:555
+msgid "]}"
+msgstr ""
+
+#: ../authorizenet.php:560
+#, php-format
+msgid "Setup fee payment has been made. Amount: %s. Subscription Id: %s"
+msgstr ""
+
+#: ../authorizenet.php:568
+#, php-format
+msgid "Transaction failed to be captured. Reason: %s"
+msgstr ""
+
+#: ../authorizenet.php:568
+#, php-format
+msgid "Subscription failed to be created. Reason: %s"
+msgstr ""
+
+#: ../authorizenet.php:692
+#, php-format
+msgid "Subscription payment has been made. Amount: %s. Subscriber Id: %s"
+msgstr ""
+
+#: ../authorizenet.php:706
+#, php-format
+msgid ""
+"Subscription has successfully completed its billing schedule. Subscriber Id: "
+"%s"
+msgstr ""
+
+#: ../authorizenet.php:717 ../authorizenet.php:739
+#, php-format
+msgid ""
+"Subscription is currently suspended due to a transaction decline, rejection, "
+"or error. Suspended subscriptions must be reactivated before the next "
+"scheduled transaction or the subscription will be terminated by the payment "
+"gateway. Subscriber Id: %s"
+msgstr ""
+
+#: ../authorizenet.php:728
+#, php-format
+msgid "Subscription has been canceled. Subscriber Id: %s"
+msgstr ""
+
+#: ../authorizenet.php:765
+msgid "Gravity Forms "
+msgstr ""
+
+#: ../authorizenet.php:772
+msgid "There is a new version of Gravity Forms Authorize.Net Add-On available."
+msgstr ""
+
+#: ../authorizenet.php:772 ../plugin-upgrade.php:56
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: ../authorizenet.php:773
+#, php-format
+msgid ""
+"%sRegister%s your copy of Gravity Forms to receive access to automatic "
+"upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: ../authorizenet.php:821 ../authorizenet.php:1255 ../authorizenet.php:1694
+msgid "Authorize.Net"
+msgstr ""
+
+#: ../authorizenet.php:839 ../authorizenet.php:925 ../authorizenet.php:934
+#: ../authorizenet.php:1796
+msgid "Transaction Type"
+msgstr ""
+
+#: ../authorizenet.php:839
+msgid ""
+"Select which Authorize.Net transaction type should be used. Products and "
+"Services, Donations or Subscription."
+msgstr ""
+
+#: ../authorizenet.php:840 ../authorizenet.php:1811
+msgid "Gravity Form"
+msgstr ""
+
+#: ../authorizenet.php:840
+msgid ""
+"Select which Gravity Forms you would like to integrate with Authorize.Net."
+msgstr ""
+
+#: ../authorizenet.php:841
+msgid "Customer"
+msgstr ""
+
+#: ../authorizenet.php:841
+msgid ""
+"Map your Form Fields to the available Authorize.Net customer information "
+"fields."
+msgstr ""
+
+#: ../authorizenet.php:842 ../authorizenet.php:1936
+msgid "Options"
+msgstr ""
+
+#: ../authorizenet.php:842
+msgid "Turn on or off the available Authorize.Net checkout options."
+msgstr ""
+
+#: ../authorizenet.php:843 ../authorizenet.php:1844
+msgid "Recurring Amount"
+msgstr ""
+
+#: ../authorizenet.php:843
+msgid "Select which field determines the recurring payment amount."
+msgstr ""
+
+#: ../authorizenet.php:844 ../authorizenet.php:1851
+msgid "Billing Cycle"
+msgstr ""
+
+#: ../authorizenet.php:844
+msgid ""
+"Select your billing cycle.  This determines how often the recurring payment "
+"should occur."
+msgstr ""
+
+#: ../authorizenet.php:845 ../authorizenet.php:1868
+msgid "Recurring Times"
+msgstr ""
+
+#: ../authorizenet.php:845
+msgid ""
+"Select how many times the recurring payment should be made.  The default is "
+"to bill the customer until the subscription is canceled."
+msgstr ""
+
+#: ../authorizenet.php:846 ../authorizenet.php:1896
+msgid "Trial Period"
+msgstr ""
+
+#: ../authorizenet.php:846
+msgid ""
+"Enable a trial period.  The users recurring payment will not begin until "
+"after this trial period."
+msgstr ""
+
+#: ../authorizenet.php:847 ../authorizenet.php:1903
+msgid "Trial Amount"
+msgstr ""
+
+#: ../authorizenet.php:847
+msgid "Enter the trial period amount or leave it blank for a free trial."
+msgstr ""
+
+#: ../authorizenet.php:848 ../authorizenet.php:1907
+msgid "Trial Recurring Times"
+msgstr ""
+
+#: ../authorizenet.php:848
+msgid ""
+"Select the number of billing occurrences or payments in the trial period."
+msgstr ""
+
+#: ../authorizenet.php:849 ../authorizenet.php:1963
+msgid "Authorize.Net Condition"
+msgstr ""
+
+#: ../authorizenet.php:849
+msgid ""
+"When the Authorize.Net condition is enabled, form submissions will only be "
+"sent to Authorize.Net when the condition is met. When disabled all form "
+"submissions will be sent to Authorize.Net."
+msgstr ""
+
+#: ../authorizenet.php:850 ../authorizenet.php:1884
+msgid "Setup Fee"
+msgstr ""
+
+#: ../authorizenet.php:850
+msgid ""
+"Enable setup fee to charge a one time fee before the recurring payments "
+"begin."
+msgstr ""
+
+#: ../authorizenet.php:877
+msgid "Feed deleted."
+msgstr ""
+
+#: ../authorizenet.php:888
+msgid "Feeds deleted."
+msgstr ""
+
+#: ../authorizenet.php:894
+msgid "Authorize.Net Transactions"
+msgstr ""
+
+#: ../authorizenet.php:896
+msgid "Authorize.Net Forms"
+msgstr ""
+
+#: ../authorizenet.php:898
+msgid "Add New"
+msgstr ""
+
+#: ../authorizenet.php:909 ../authorizenet.php:911
+msgid "Bulk action"
+msgstr ""
+
+#: ../authorizenet.php:912 ../authorizenet.php:974
+msgid "Delete"
+msgstr ""
+
+#: ../authorizenet.php:915
+msgid "Apply"
+msgstr ""
+
+#: ../authorizenet.php:915
+msgid "Delete selected feeds? "
+msgstr ""
+
+#: ../authorizenet.php:915 ../authorizenet.php:974
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: ../authorizenet.php:924 ../authorizenet.php:933
+msgid "Form"
+msgstr ""
+
+#: ../authorizenet.php:947
+#, php-format
+msgid "To get started, please configure your %sAuthorize.Net Settings%s."
+msgstr ""
+
+#: ../authorizenet.php:957 ../authorizenet.php:1023
+msgid "Active"
+msgstr ""
+
+#: ../authorizenet.php:957 ../authorizenet.php:1019
+msgid "Inactive"
+msgstr ""
+
+#: ../authorizenet.php:959 ../authorizenet.php:962
+msgid "Edit"
+msgstr ""
+
+#: ../authorizenet.php:966
+msgid "View Stats"
+msgstr ""
+
+#: ../authorizenet.php:966
+msgid "Stats"
+msgstr ""
+
+#: ../authorizenet.php:970
+msgid "View Entries"
+msgstr ""
+
+#: ../authorizenet.php:970
+msgid "Entries"
+msgstr ""
+
+#: ../authorizenet.php:974
+msgid "Delete this feed? "
+msgstr ""
+
+#: ../authorizenet.php:982
+msgid "Product and Services"
+msgstr ""
+
+#: ../authorizenet.php:986
+msgid "Subscription"
+msgstr ""
+
+#: ../authorizenet.php:999
+#, php-format
+msgid ""
+"You don't have any Authorize.Net feeds configured. Let's go %screate one%s!"
+msgstr ""
+
+#: ../authorizenet.php:1034
+msgid "Ajax error while updating feed"
+msgstr ""
+
+#: ../authorizenet.php:1093
+msgid "Authorize.Net Account Information"
+msgstr ""
+
+#: ../authorizenet.php:1100 ../authorizenet.php:2010
+msgid "Mode"
+msgstr ""
+
+#: ../authorizenet.php:1103 ../authorizenet.php:2012
+msgid "Production"
+msgstr ""
+
+#: ../authorizenet.php:1106 ../authorizenet.php:2015
+msgid "Test"
+msgstr ""
+
+#: ../authorizenet.php:1110 ../authorizenet.php:2019
+msgid "API Login ID"
+msgstr ""
+
+#: ../authorizenet.php:1115
+msgid ""
+"You can find your unique <strong>API Login ID</strong> by clicking on the "
+"'Account' link at the Authorize.Net Merchant Interface. Then click 'API "
+"Login ID and Transaction Key'. Your API Login ID will be displayed."
+msgstr ""
+
+#: ../authorizenet.php:1119 ../authorizenet.php:2025
+msgid "Transaction Key"
+msgstr ""
+
+#: ../authorizenet.php:1124
+msgid ""
+"You can find your unique <strong>Transaction Key</strong> by clicking on the "
+"'Account' link at the Authorize.Net Merchant Interface. Then click 'API "
+"Login ID and Transaction Key'. For security reasons, you cannot view your "
+"Transaction Key, but you will be able to generate a new one."
+msgstr ""
+
+#: ../authorizenet.php:1129
+msgid "Automated Recurring Billing Setup"
+msgstr ""
+
+#: ../authorizenet.php:1131
+msgid ""
+"To create recurring payments, you must have Automated Recurring Billing "
+"(ARB) setup in your Authorize.Net account."
+msgstr ""
+
+#: ../authorizenet.php:1138
+msgid "ARB is setup in my Authorize.Net account."
+msgstr ""
+
+#: ../authorizenet.php:1142
+msgid "Save Settings"
+msgstr ""
+
+#: ../authorizenet.php:1154 ../authorizenet.php:1157
+msgid "Uninstall Authorize.Net Add-On"
+msgstr ""
+
+#: ../authorizenet.php:1155
+msgid "Warning! This operation deletes ALL Authorize.Net Feeds."
+msgstr ""
+
+#: ../authorizenet.php:1157
+msgid ""
+"Warning! ALL Authorize.Net Feeds will be deleted. This cannot be undone. "
+"\\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr ""
+
+#: ../authorizenet.php:1256
+msgid "Authorize.Net Stats"
+msgstr ""
+
+#: ../authorizenet.php:1260
+msgid "Daily"
+msgstr ""
+
+#: ../authorizenet.php:1261
+msgid "Weekly"
+msgstr ""
+
+#: ../authorizenet.php:1262
+msgid "Monthly"
+msgstr ""
+
+#: ../authorizenet.php:1283
+msgid "No payments have been made yet."
+msgstr ""
+
+#: ../authorizenet.php:1342
+msgid "Week "
+msgstr ""
+
+#: ../authorizenet.php:1363
+msgid "Total Orders"
+msgstr ""
+
+#: ../authorizenet.php:1368
+msgid "Total Donations"
+msgstr ""
+
+#: ../authorizenet.php:1373
+msgid "Active Subscriptions"
+msgstr ""
+
+#: ../authorizenet.php:1381
+msgid "Total Revenue"
+msgstr ""
+
+#: ../authorizenet.php:1400
+msgid ""
+"** Free trial transactions will only be reflected in the graph after the "
+"first payment is made (i.e. after trial period ends)"
+msgstr ""
+
+#: ../authorizenet.php:1455 ../authorizenet.php:1521 ../authorizenet.php:1590
+msgid "New Subscriptions"
+msgstr ""
+
+#: ../authorizenet.php:1455 ../authorizenet.php:1521 ../authorizenet.php:1590
+msgid "Renewals"
+msgstr ""
+
+#: ../authorizenet.php:1458 ../authorizenet.php:1524 ../authorizenet.php:1593
+msgid "Orders"
+msgstr ""
+
+#: ../authorizenet.php:1461 ../authorizenet.php:1527 ../authorizenet.php:1596
+msgid "Revenue"
+msgstr ""
+
+#: ../authorizenet.php:1480
+msgid "Orders Today"
+msgstr ""
+
+#: ../authorizenet.php:1484
+msgid "Donations Today"
+msgstr ""
+
+#: ../authorizenet.php:1488
+msgid "Subscriptions Today"
+msgstr ""
+
+#: ../authorizenet.php:1492
+msgid "Revenue Today"
+msgstr ""
+
+#: ../authorizenet.php:1527
+msgid "Week"
+msgstr ""
+
+#: ../authorizenet.php:1547
+msgid "Orders this Week"
+msgstr ""
+
+#: ../authorizenet.php:1551
+msgid "Donations this Week"
+msgstr ""
+
+#: ../authorizenet.php:1555
+msgid "Subscriptions this Week"
+msgstr ""
+
+#: ../authorizenet.php:1560
+msgid "Revenue this Week"
+msgstr ""
+
+#: ../authorizenet.php:1615
+msgid "Orders this Month"
+msgstr ""
+
+#: ../authorizenet.php:1619
+msgid "Donations this Month"
+msgstr ""
+
+#: ../authorizenet.php:1623
+msgid "Subscriptions this Month"
+msgstr ""
+
+#: ../authorizenet.php:1627
+msgid "Revenue this Month"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Jan"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Feb"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Mar"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Apr"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "May"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Jun"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Jul"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Aug"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Sep"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Oct"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Nov"
+msgstr ""
+
+#: ../authorizenet.php:1641
+msgid "Dec"
+msgstr ""
+
+#: ../authorizenet.php:1695
+msgid "Authorize.Net Transaction Settings"
+msgstr ""
+
+#: ../authorizenet.php:1767
+#, php-format
+msgid "Feed Updated. %sback to list%s"
+msgstr ""
+
+#: ../authorizenet.php:1785
+msgid "There was an issue saving your feed."
+msgstr ""
+
+#: ../authorizenet.php:1786
+msgid "Recurring Amount and Setup Fee must be assigned to different fields."
+msgstr ""
+
+#: ../authorizenet.php:1799
+msgid "Select a transaction type"
+msgstr ""
+
+#: ../authorizenet.php:1800
+msgid "Products and Services"
+msgstr ""
+
+#: ../authorizenet.php:1801
+msgid "Subscriptions"
+msgstr ""
+
+#: ../authorizenet.php:1814
+msgid "Select a form"
+msgstr ""
+
+#: ../authorizenet.php:1834
+msgid ""
+"The form selected does not have any Product fields. Please add a Product "
+"field to the form and try again."
+msgstr ""
+
+#: ../authorizenet.php:1837
+msgid ""
+"The form selected does not have a credit card field. Please add a credit "
+"card field to the form and try again."
+msgstr ""
+
+#: ../authorizenet.php:1862
+msgid "day(s)"
+msgstr ""
+
+#: ../authorizenet.php:1863
+msgid "month(s)"
+msgstr ""
+
+#: ../authorizenet.php:1870
+msgid "Infinite"
+msgstr ""
+
+#: ../authorizenet.php:1886 ../authorizenet.php:1898 ../authorizenet.php:1970
+msgid "Enable"
+msgstr ""
+
+#: ../authorizenet.php:1924
+msgid "Billing Information"
+msgstr ""
+
+#: ../authorizenet.php:1941
+msgid "Send Authorize.Net email receipt."
+msgstr ""
+
+#: ../authorizenet.php:1948
+msgid "Update Post when subscription is cancelled."
+msgstr ""
+
+#: ../authorizenet.php:1951
+msgid "Mark Post as Draft"
+msgstr ""
+
+#: ../authorizenet.php:1952
+msgid "Delete Post"
+msgstr ""
+
+#: ../authorizenet.php:1977
+msgid "Send to Authorize.Net if "
+msgstr ""
+
+#: ../authorizenet.php:1980
+msgid "is"
+msgstr ""
+
+#: ../authorizenet.php:1981
+msgid "is not"
+msgstr ""
+
+#: ../authorizenet.php:1982
+msgid "greater than"
+msgstr ""
+
+#: ../authorizenet.php:1983
+msgid "less than"
+msgstr ""
+
+#: ../authorizenet.php:1984
+msgid "contains"
+msgstr ""
+
+#: ../authorizenet.php:1985
+msgid "starts with"
+msgstr ""
+
+#: ../authorizenet.php:1986
+msgid "ends with"
+msgstr ""
+
+#: ../authorizenet.php:1991
+msgid ""
+"To create a registration condition, your form must have a field supported by "
+"conditional logic."
+msgstr ""
+
+#: ../authorizenet.php:2002
+msgid "API Settings"
+msgstr ""
+
+#: ../authorizenet.php:2004
+msgid "Override Default Settings"
+msgstr ""
+
+#: ../authorizenet.php:2033
+msgid "  Save  "
+msgstr ""
+
+#: ../authorizenet.php:2033
+msgid "Update"
+msgstr ""
+
+#: ../authorizenet.php:2034
+msgid "Cancel"
+msgstr ""
+
+#: ../authorizenet.php:2098
+msgid "Ajax error while selecting a form"
+msgstr ""
+
+#: ../authorizenet.php:2246
+msgid "Enter value"
+msgstr ""
+
+#: ../authorizenet.php:2508
+msgid "options: "
+msgstr ""
+
+#: ../authorizenet.php:2542
+msgid "Cancel Subscription"
+msgstr ""
+
+#: ../authorizenet.php:2542
+msgid ""
+"Warning! This Authorize.Net Subscription will be canceled. This cannot be "
+"undone. \\'OK\\' to cancel subscription, \\'Cancel\\' to stop"
+msgstr ""
+
+#: ../authorizenet.php:2561
+msgid "Canceled"
+msgstr ""
+
+#: ../authorizenet.php:2567
+msgid "The subscription could not be canceled. Please try again later."
+msgstr ""
+
+#: ../authorizenet.php:2646
+msgid ""
+"You don't have adequate permission to uninstall the Authorize.Net Add-On."
+msgstr ""
+
+#: ../authorizenet.php:2694
+msgid "Authorize.Net Fields"
+msgstr ""
+
+#: ../authorizenet.php:2694
+msgid "Form Fields"
+msgstr ""
+
+#: ../authorizenet.php:2707
+msgid "Email"
+msgstr ""
+
+#: ../authorizenet.php:2707
+msgid "Address"
+msgstr ""
+
+#: ../authorizenet.php:2707
+msgid "Address 2"
+msgstr ""
+
+#: ../authorizenet.php:2708
+msgid "City"
+msgstr ""
+
+#: ../authorizenet.php:2708
+msgid "State"
+msgstr ""
+
+#: ../authorizenet.php:2708
+msgid "Zip"
+msgstr ""
+
+#: ../authorizenet.php:2709
+msgid "Country"
+msgstr ""
+
+#: ../authorizenet.php:2727
+msgid "Select a field"
+msgstr ""
+
+#: ../authorizenet.php:2739
+msgid "Form Total"
+msgstr ""
+
+#: ../plugin-upgrade.php:75
+#, php-format
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr ""
